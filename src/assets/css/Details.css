@@ -1,0 +1,32 @@
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details__name{
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.details__sub{
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+}
+    
+@media screen and (max-width: 500px){
+    .details__name{
+        font-size: 1.5rem;
+    }
+    
+    .details__sub{
+        font-size: 0.8rem;
+    }
+}

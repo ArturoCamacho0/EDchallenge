@@ -1,0 +1,42 @@
+{
+    "name": "Arturo",
+    "subtitle": "¿Qué esperas para crear algo increible?",
+    "links": [
+        {
+            "id": 1,
+            "title": "Escúcha mi Podcast!",
+            "link": "https://anchor.fm/arturocamacho0"
+        },
+        {
+            "id": 2,
+            "title": "Canal de Youtube",
+            "link": "https://www.youtube.com/channel/UCdkpzMb0O66yUXUS-htfqYA?sub_confirmation=1"
+        },
+        {
+            "id": 3,
+            "title": "Visita mi web",
+            "link": "https://arturo-camacho.web.app/"
+        }
+    ],
+    "social": [
+        {
+            "link": "https://www.facebook.com/ArturoCH0",
+            "alt": "Facebook"
+        },
+        {
+            "link": "https://twitter.com/arturo_camacho0",
+            "image": "",
+            "alt": "Twitter"
+        },
+        {
+            "link": "https://instagram.com/arturocamach0",
+            "image": "",
+            "alt": "Instagram"
+        },
+        {
+            "link": "https://www.linkedin.com/in/arturocamacho0/",
+            "image": "",
+            "alt": "Linkedin"
+        }
+    ]
+}

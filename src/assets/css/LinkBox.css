@@ -1,0 +1,39 @@
+.box{
+    margin-top: 20px;
+    width: 80%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.363);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.box:hover{
+    background: rgba(255, 255, 255, 0.151);
+}
+
+.box h5{
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Open Sans';
+    margin: 0;
+    transition: all 200ms;
+}
+
+.box:hover h5{
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+    .box h5{
+        font-size: 1rem;
+    }
+}

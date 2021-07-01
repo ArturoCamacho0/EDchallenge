@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.container a{
+    cursor: pointer;
+}
+
+.container a img{
+    width: 10vw;
+}
+
+@media screen and (min-width: 1000px){
+    .container a img{
+        width: 3vw;
+        transition: all 200ms;
+    }
+
+    .container a img:hover{
+        width: 3.3vw;
+    }
+}
+
+@media screen and (min-width: 500px, max-width: 1000px){
+    .container a img{
+        width: 6vw;
+        transition: all 200ms;
+    }
+
+    .container a img:hover{
+        width: 6.3vw;
+    }
+}

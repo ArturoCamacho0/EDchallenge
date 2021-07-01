@@ -1,0 +1,10 @@
+.picture > img{
+    border-radius: 50%;
+    width: 10vw;
+}
+
+@media screen and (max-width: 850px) {
+    .picture > img{
+        width: 20vw;
+    }
+}
